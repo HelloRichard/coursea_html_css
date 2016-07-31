@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 100%;
+}
+p {
+	padding: 50px 10px;
+	height: 250px;
+	width: auto;
+	overflow: hidden;
+}
+div#container1 {
+	background-color: #00FFFF;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 35px;
+	padding: 5px;
+}
+div#container2 {
+	background-color: #00FFFF;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 35px;
+	padding: 5px;
+}
+div#container3 {
+	background-color: #00FFFF;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 35px;
+	padding: 5px;
+}
+#header {
+	font-size: 175%;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+#title1 {
+	font-size: 125%;
+	background-color: yellow;
+	border: 1px solid black;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	right: -1px;
+	top:-1px;
+}
+#title2 {
+	font-size: 125%;
+	background-color: orange;
+	border: 1px solid black;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	right: -1px;
+	top:-1px;
+}
+#title3 {
+	font-size: 125%;
+	background-color: red;
+	border: 1px solid black;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	right: -1px;
+	top:-1px;
+}
+.container {
+	width: 100%;
+}
+@media (min-width: 992px) {
+	div#container1 {
+		width: 33%;
+		float: left;
+	}
+	div#container2 {
+		width: 33%;
+		float: left;
+	}
+	div#container3 {
+		width: 33%;
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	div#container1 {
+		width: 40%;
+		float: left;
+	}
+	div#container2 {
+		width: 40%;
+		float: left;
+	}
+	div#container3 {
+		width: 87%;
+		float: left;
+	}
+}
+@media (max-width: 767px) {
+	div#container1 {
+		width: 80%;
+		float: left;
+	}
+	div#container2 {
+		width: 80%;
+	}
+	div#container3 {
+		width: 80%;
+}
+
+/** NOTE I could have used the style attribute instead of making 3 title id **/
