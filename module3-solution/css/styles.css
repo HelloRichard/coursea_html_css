@@ -29,7 +29,7 @@ p {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
-.container p{
+p{
   background-color: #d2d3d3;
   border: 2px solid #3F0C1F;
   padding: 15px;
@@ -64,14 +64,14 @@ p {
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container p{
+  p{
     height: 1000px;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .container p{
+  p{
     height: 782px;
   } 
 }
@@ -79,7 +79,7 @@ p {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-  .container p{
+  p{
     height: 432px;
   } 
 
