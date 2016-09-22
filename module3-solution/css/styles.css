@@ -1,8 +1,12 @@
 h1 {
   font-family: 'Oxygen', sans-serif;
 }
-body { 
-  padding-top: 70px; 
+hr.visible-xs {
+  border-color: black;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  margin-right: 20px;
 }
 .navbar-brand {
   padding-top: 20px;
@@ -19,27 +23,10 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-h3.text-center {
-  margin-top: 70px;
-}
-div#chicken{
-  background-color: #d2d3d3;
-  border: 2px solid #3F0C1F;
-  padding: 5px 15px;
-  margin-top: 50px;
-  height: 1000px;
-}
-div#beef{
+#chicken, #beef, #sushi{
   background-color: #d2d3d3;
   border: 2px solid #3F0C1F;
   padding: 5px 15px;
   margin-top: 30px;
-  height: 1000px;
-}
-div#sushi{
-  background-color: #d2d3d3;
-  border: 2px solid #3F0C1F;
-  padding: 5px 15px;
-  margin-top: 30px;
-  height: 1000px;
+  height: auto;
 }
